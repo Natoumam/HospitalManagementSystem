@@ -1,66 +1,65 @@
-## HospitalManagement
-A Simple Hospital Management Project build using Python Flask and SQL Alchemy
+## Python.Project
+This repository provides a detailed guide on implementing a Python application on the local host, explaining each step thoroughly.
+----
 
-### Built With
+### Let's Get Started
 
-* [Bootsrap](https://getbootstrap.com/)
-* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
-* [Jinja](https://jinja.palletsprojects.com/en/2.11.x/)
-
-
-## Screenshots
-
-<img src="screencapture-buerocarehospital-herokuapp-home-2020-07-27-21_31_56.png">
-<img src="screencapture-buerocarehospital-herokuapp-create-patient-2020-07-27-21_32_23.png">
-<img src="screencapture-buerocarehospital-herokuapp-addMedicine-2020-07-27-21_33_06.png">
-<img src="screencapture-buerocarehospital-herokuapp-PharmacistPatientDetails-2020-07-27-21_33_19.png">
-<img src="screencapture-buerocarehospital-herokuapp-DiagnosticsPatientDetails-2020-07-27-21_33_40.png">
-<img src="screencapture-buerocarehospital-herokuapp-billing-2020-07-27-21_33_52.png">
-<img src="screencapture-buerocarehospital-herokuapp-login-2020-07-27-21_34_28.png">
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-Follow the installation steps to open project without error
+Follow the installation steps to ensure the project opens without encountering any errors.
 
 ### Installation
- 
-1. Download and extract the project
-2. I've used virtual environment. It's not necessary, but using virtual environment is preferable.
-```sh
 
-python -m venv venv
+1- Download and extract the project
 
-```
+NOTE: I've used virtual environment. It's not necessary, but using virtual environment is preferable
 
-3. Activate virtual env
+2- Run this projet on your local host (you don't to create a VM )
 
-```sh
+3- Clone the repository and cd into it
 
-D:\flask\HospitalManagement> source venv/Scripts/activate
+* ` git clone https://github.com/Natoumam/HospitalManagementSystem.git`
 
-```
-After venv is activated
+![](./image%201%20clone.png)
 
-```sh
+* `cd HospitalManagementSystem`
 
-(venv) D:\flask\HospitalManagement
-```
+![](./im%203%20cd%20hopi.png)
 
-4. Install all the required libraries for the application
+4- You may need to install python3
 
-```sh
+* `sudo apt install python3.10-venv`
+![](./im%204%20python%20inst.png)
 
- pip install -r requirements.txt
-```
+5- Created the virtual environment
 
-5. To run the code
+* ` python3 -m venv path/to/venv`
 
-```sh
+6- Activate the virtual environment:
 
-D:\flask\HospitalManagement> flask run
-```
+* ` source path/to/venv/bin/activate`
 
-thats it..!!
+* `sudo apt update`
+![](./im%205%20envirn.png)
 
+7- Install all the required libraries for the application
+
+* `pip install -r requirements.txt`
+
+![](./im%206%20requirements.txt.png)
+
+8- To run the code
+
+* `flask run`
+
+9- Copy the URL paste on a new tab
+
+![](./copy%20http.png)
+
+10- You can veiw your application
+
+* You will have to create a username and a password and loggin ID
+
+![](./im%207%20website.png)
+
+![](./im%208.png)
+
+### Well done you did it!
